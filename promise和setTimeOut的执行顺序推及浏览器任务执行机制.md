@@ -23,9 +23,7 @@ setTimeout(function(){
     console.log(time is out);
 }，1000）;
 ```
-
-![1038932-20180831111726925-1117521653](C:\Users\liwei\Desktop\1038932-20180831111726925-1117521653.png)
-
+![1038932-20180831111726925-1117521653](https://user-images.githubusercontent.com/61279134/146214157-93e75a3c-4f78-4b78-9d77-1bdbdcd21f3e.png)
 - 同步和异步任务分别进入不同的执行"场所"，同步的进入主线程，异步的进入**<u>Event Table并注册函数</u>**。
 - 当指定的事情完成时，Event Table会将这个函数**<u>移入Event Queue</u>**。
 - 主线程内的任务执行完毕为空，会去**<u>Event Queue读取对应的函数，进入主线程执行</u>**。
