@@ -31,7 +31,7 @@ setTimeout(function(){
 - 主线程内的任务执行完毕为空，会去**Event Queue读取对应的函数，进入主线程执行**。
 - 上述过程会不断重复，也就是常说的**Event Loop(事件循环)**。
 
-###参考文章
+### 参考文章
 https://www.cnblogs.com/sunmarvell/p/9564815.html
 
 
